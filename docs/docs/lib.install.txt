@@ -1,0 +1,6 @@
+// install
+...
+    lib/
+	App/
+	phphaml/
+	Zend/

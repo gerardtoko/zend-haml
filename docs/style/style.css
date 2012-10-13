@@ -1,0 +1,60 @@
+
+/*
+*
+* CSS DE BASE 
+* Gerard TOKO  gerard.devpro@gmail.com
+* 2011 Copyright
+*
+*
+* Couleur :::::::::::::
+* COULEUR ROSE = #ee4b98
+* COULEUR BLEU = #40729e
+*
+*/
+
+/* --- STYLES DE BASE --- */
+
+/* Page */
+html { font-size: 100%; }
+body {  height:100%; width:100%; min-height:100%; margin: 0; padding: 0px; border: 0; font-size: 11px; line-height: 20px; background: white;color: #444; font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: bold;font-style: normal; color: #666;}
+h1 { font-size: 20px; color: #444;}
+h2 { font-size: 16px; color: #555;}
+h3 { font-size: 14px; color: #555;}
+h4 { font-size: 12px; color: #555;}
+
+/* Listes */
+ul, li, dl, dt, dd{ display: block; margin-top: 0px; padding: 0px; list-style: none;}
+
+/* Paragraphes */
+p { margin-top: 0px; padding: 0px; }
+
+/* Liens */
+a {text-decoration: none;}
+a:link {color: #11C;}
+a:visited {color: #339;}
+a:hover, a:focus, a:active {color: #00F;}
+
+/* Pas de bordure autour des images dans les liens */
+a img { border: none;}
+
+/* Divers ŽlŽments de type en-ligne (8) */
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+/* Conteneurs sŽmantiques de HTML 5 */
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section {display: block;}
+
+/* Formulaires */
+form, fieldset { margin: 0; padding: 0; border: none;}
+input, button, select { vertical-align: middle; /* Solution pb. d'alignement. (9) */}
+
+/* --- STYLES DE MAIN --- */
+
+.main-wrapper {
+    margin: 100px auto auto;
+    width: 780px;
+}
